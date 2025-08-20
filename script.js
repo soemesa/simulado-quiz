@@ -435,13 +435,66 @@ const questoes = [
         correta: ""
     },
     {
-        pergunta: "",
-        alternativas: ["", "", "", ""],
+        pergunta: `Diante das alternativas: 
+        <br>I. transitar com velocidade superior à máxima em mais de 50km/h
+        <br>II. Afastar-se do veículo do local doa cidente, para fugir à responsabilidade penal ou civil.
+        <br>III.Conduzir veículo automotor com capacidade psicomotora alterada em razão da influência de álcool.
+        <br>IV. Participar de rachas
+        <br>Quais são crimes de trânsito:
+        `,
+        alternativas: ["I e II", "I, II, III e IV", "II e III", "II, III e IV"],
         correta: ""
     },
     {
-        pergunta: "",
-        alternativas: ["", "", "", ""],
+        pergunta: "È proibido transportar em motocicletas:",
+        alternativas: [
+            "passageiros com capacete",
+            "passageiros que estejam usando tênis",
+            "crianças menores de 10 anos ou sem condições de se cuidar",
+            "crianças menores de 12 anos"
+        ],
+        correta: ""
+    },
+    {
+        pergunta: `Segundo o Código de Trânsito Brasileiro:
+        <br>I. A educação para o trânsito é um direito de todos os cidadãos e um dever dos componentes do Sistema Nacional de
+        Trânsito
+        <br>II. O condutor deverá, a todo momento, ter domínio de seu veículo, dirigindo-o com atenção e cuidados indispensáveis
+        à segurança do trânsito
+        <br> Os veículos que se deslocam sobre trilhos terão preferência de passagem sobre os demais, respeitadas as normas de
+        circulação
+        <br> È correto o que consta APENAS em:`,
+        alternativas: ["I, II e III", "I e II", "I e III", "II"],
+        correta: ""
+    },
+    {
+        pergunta: "A idade mínima de 21 anos é exigida aos condutores:",
+        alternativas: [
+            "das categorias 'B' e 'C'",
+            "de transporte coletivo de passageiros e de escolares",
+            "de ciclomotores",
+            "de motocicletas com mais de 180 cc"
+        ],
+        correta: ""
+    },
+    {
+        pergunta: "É correto afirmar que o ciclista deve:",
+        alternativas: [
+            "circular observndo somente as regras impostas aos pedestres, mesmo quando não está desmontado",
+            "respeitar o CTB e, consequentemente, a legislação e sinalização das vias",
+            "transitar em clçadas somente onde não haja movimento de pedestres",
+            "trafegar em faixas exclusivas para ônibus, desde que não haja fluxo no local"
+        ],
+        correta: ""
+    },
+    {
+        pergunta: "Com o veículo em circulação, um dos documentos de porte obrigatórop é:",
+        alternativas: [
+            "a Carteira Nacional de Habilitação (CNH), dentro da validade",
+            "o Manual do Propietario entegue pelo fabricante",
+            "a fotocopia do documento de habilitação acompanhado da carteira de identidade",
+            "o comprovante de pagamento do Seguro Obrigatório"
+        ],
         correta: ""
     },
     {
