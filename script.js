@@ -10,7 +10,8 @@ const questoes = [
         correta: "dar ciência ao Departamento de Trânsito do Estado de origem."
     },
     {
-        pergunta: "As subdivisões da pista de rolamento, com ou sem separações demarcadas, cuja largura permite a circulação de um veículo com segurança, são chamadas: ",
+        pergunta: `As subdivisões da pista de rolamento, com ou sem separações demarcadas, cuja largura permite a circulação
+         de um veículo com segurança, são chamadas: `,
         alternativas: [
             "vias públicas",
             "faixas de segurança",
@@ -61,7 +62,9 @@ const questoes = [
         correta: "socorro de incêndio e salvamento, polícia, fiscalização e operação de trânsito e ambulância"
     },
     {
-        pergunta: "Solicitar sinalização, fiscalização e implantação de equipamentos de segurança, por escrito, aos órgãos ou entidades do Sistema Nacional de Trânsito (SNT), bem como sugerir alterações em normas, legislação e outros assuntos pertinentes ao Código de Trânsito Brasileiro (CTB), é um direito:",
+        pergunta: `Solicitar sinalização, fiscalização e implantação de equipamentos de segurança, por escrito, aos órgãos 
+        ou entidades do Sistema Nacional de Trânsito(SNT), bem como sugerir alterações em normas, legislação e outros assuntos
+        pertinentes ao Código de Trânsito Brasileiro(CTB), é um direito: `,
         alternativas: [
             "exclusivo de condutores habilitados na categoria D.",
             "apenas dos advogados.",
@@ -71,7 +74,9 @@ const questoes = [
         correta: "de todo cidadão ou entidade civil."
     },
     {
-        pergunta: "Como é chamado um veículo automotor de duas ou três rodas, provido de motor de combustão interna, cuja cilindrada não exceda a 50 cm³, ou de motor de propulsão elétrica com potência máxima de 4 kW e que alcança, no máximo, a velocidade de 50 km/h?",
+        pergunta: `Como é chamado um veículo automotor de duas ou três rodas, provido de motor de combustão interna, cuja 
+        cilindrada não exceda a 50 cm³, ou de motor de propulsão elétrica com potência máxima de 4 kW e que alcança, no máximo,
+        a velocidade de 50 km/h?`,
         alternativas: ["Motocicleta", "Reboque", "Bicicleta", "Ciclomotor"],
         correta: "Ciclomotor"
     },
@@ -96,7 +101,8 @@ const questoes = [
         correta: "desde que não tenha cometido nenhuma infração gravíssima ou grave, nem seja reincidente em infração média."
     },
     {
-        pergunta: "Seu amigo está voltando de uma festa e é parado em uma blitz. Como bebeu um pouco ele se recusa a fazer o teste do bafômetro. O que pode acontecer?",
+        pergunta: `Seu amigo está voltando de uma festa e é parado em uma blitz. Como bebeu um pouco ele se recusa a fazer o 
+        teste do bafômetro. O que pode acontecer?`,
         alternativas: [
             "Nada é um direito do cidadão recusar tal teste.",
             "Será autuado pela infração do Art. 165-A",
@@ -130,10 +136,12 @@ const questoes = [
         alternativas: [
             "pela alta velocidade nela desenvolvida.",
             "por faixas interceptando e distribuindo o trânsito, com acessos especiais.",
-            "pelo trânsito livre, sem interseções em nível com acessos especiais, sem acessibilidade direta aos lotes lindeiros e sem travessia de pedestres em nível",
+            `pelo trânsito livre, sem interseções em nível com acessos especiais, sem acessibilidade direta aos lotes lindeiros 
+            e sem travessia de pedestres em nível`,
             "por faixas de acesso às àreas de estacionamento"
         ],
-        correta: "pelo trânsito livre, sem interseções em nível com acessos especiais, sem acessibilidade direta aos lotes lindeiros e sem travessia de pedestres em nível"
+        correta: `pelo trânsito livre, sem interseções em nível com acessos especiais, sem acessibilidade direta aos lotes 
+        lindeiros e sem travessia de pedestres em nível`
     },
     {
         pergunta: "A fotocópia da CNH:",
@@ -157,7 +165,8 @@ const questoes = [
         correta: "oficial, representação diplomática, particular, aluguel e aprendizagem"
     },
     {
-        pergunta: "Conforme o CTB, o candidato à primeira habilitação deverá submeter-se a exames realizados pelo órgão executivo de trânsito na seguinte ordem:",
+        pergunta: `Conforme o CTB, o candidato à primeira habilitação deverá submeter-se a exames realizados pelo órgão 
+        executivo de trânsito na seguinte ordem:`,
         alternativas: [
             "prova teórica, aptidão física e mental, avaliação psicológica e prova prática de direção",
             "aptidão física e mental, avaliação psicológica, prova teórica e prova prática de direção veicular",
@@ -167,7 +176,8 @@ const questoes = [
         correta: "aptidão física e mental, avaliação psicológica, prova prática e prova teórica"
     },
     {
-        pergunta: `As passarelas são construídas em locais de difícil acesso para os pedestres, como em rodovias. O correto é o pedestre:
+        pergunta: `As passarelas são construídas em locais de difícil acesso para os pedestres, como em rodovias. O correto é
+        o pedestre:
         <br>I. se estiver muito longe, atravessar em nível mesmo.
         <br>II. atravessar em nível, agitando um pano.
         <br>III. caminhar até a passarela e efetuar a travessia com segurança.
@@ -211,11 +221,239 @@ const questoes = [
         correta: "acompanhado de instrutor autorizado e portando a Licença de Aprendizagem de Direção Veicular- LADV"
     },
     {
+        pergunta: "Faz parte dos equipamentos obrigatórios dos automóveis:",
+        alternativas: [
+            "espelho retrovisor externo do lado direito",
+            "rádio",
+            "conta-giros",
+            "cinto de segurança"
+        ],
+        correta: "cinto de segurança"
+    },
+    {
+        pergunta: `Assinale V ou F para as punições a que está sujeito um condutor julgado culpado de acidente com vítimas:
+        <br> ( ) curso de reciclagem.
+        <br> ( ) exames de aptidão física e mental.
+        <br> ( ) exame teórico sobre legislação.
+        <br> ( ) exame de noções de informática.
+        <br> ( ) exame de direção veicular.
+        <br>A sequência correta é:
+        `,
+        alternativas: [
+            "F, F, V,V e F.",
+            "v, V, F, V e F",
+            "F, V, F, V e F",
+            "V, V, V, F e V"
+        ],
+        correta: "V, V, V, F e V"
+    },
+    {
+        pergunta: `É obrigatório, em veiculo de passeio, transportar crianças menores de 10 anos que não tenham atingido 1,45 m 
+        de altura: `,
+        alternativas: [
+            "no banco de trás, sem outros cuidados.",
+            "no banco de trás, com sistema de retenção próprio para a idade e cinto de segurança.",
+            "em qualquer local do veículo.",
+            "no colo de um adulto, desde que os dois estejam de cinto."
+        ],
+        correta: "no banco de trás, com sistema de retenção próprio para a idade e cinto de segurança."
+    },
+    {
+        pergunta: "O limite de velocidade permitido em vias coletoras, quando não sinalizadas, é de:",
+        alternativas: ["80 km/h", "40 km/h", "60 km/h", "30 km/h"],
+        correta: "40 km/h"
+    },
+    {
+        pergunta: `O pedestre está no meio da travessia da via quando o semáforo fica verde para os veículos. Qual a atitude 
+        correta do condutor de veículo motorizado?`,
+        alternativas: [
+            "Sinalizar para o pedestre que ele deve desistir da travessia.",
+            "Por o carro em movimento de forma lenta sem colocar o pedestre em risco.",
+            "Buzinar para o pedestre.",
+            "Aguardar o final da travessia."
+
+        ],
+        correta: "Aguardar o final da travessia."
+    },
+    {
+        pergunta: `Um condutor responde ao agente de trânsito que está emitindo uma multa por estacionamento em local proibido:
+        <br> - Infelizmente estacionei neste local porque não conhecia esta placa
+        <br> Neste caso, a atitude do agente será:`,
+        alternativas: [
+            "anular a multa, pois o cidadão desconhecia a sinalização do local.",
+            "emitir a multa e notificar o infrator, pois nenhum condutor pode alegar desconhecimento da legislação de trânsito.",
+            "levar o caso para um conselho de agentes para que a maioria decida o que fazer.",
+            "emitir a multa e mandar prender o infrator por desacato."
+        ],
+        correta: "emitir a multa e mandar prender o infrator por desacato."
+    },
+    {
+        pergunta: "É proibido a todo condutor de veiculo:",
+        alternativas: [
+            "prestar socorro a vítimas de acidentes.",
+            "nas rodovias, parar o veículo no acostamento e aguardar a oportunidade para cruzar a pista",
+            "aproximar o veículo da guia de calçada (meio-fio), nas vias urbanas, para desembarque de passageiros",
+            "dirigir sem acionar o limpador de para-brisa durante chuva"
+        ],
+        correta: "dirigir sem acionar o limpador de para-brisa durante chuva"
+    },
+    {
+        pergunta: `Em vias rurais sem sinalização regulamentadora, a velocidade máxima permitida para automóveis e motocicletas 
+        é de:`,
+        alternativas: [
+            "70 km/h, quando em rodovia",
+            "70 km/h, quando em estrada",
+            "80 km/h, quando em rodovia",
+            "60 km/h, quando em estrada"
+        ],
+        correta: "60 km/h, quando em estrada"
+    },
+    {
+        pergunta: "Os passageiros, que estão no veículo, ao desembarcar devem:",
+        alternativas: [
+            "escolher por qual dos lados querem descer",
+            "descer sempre pelo lado esquerdo",
+            "descer sempre pelo lado da calçada",
+            "usar a porta que estiver mais proxima"
+        ],
+        correta: "descer sempre pelo lado da calçada"
+    },
+    {
+        pergunta: `Um condutor com 75 anos, habilitado na categoria 'B' desde os 18 anos e na categoria 'A' desde os 20 anos, 
+        deve renovar seu exame de aptidão física e mental a cada:`,
+        alternativas: ["3 anos", "2 anos", "5 anos",
+            "não precisa mais renovar a habilitação, pois é considerado uma pessoa experiente na direção veicular"],
+        correta: "3 anos"
+    },
+    {
+        pergunta: "Segundo o Código de Trânsito Brasileiro, as vias urbanas classificam-se em:",
+        alternativas: [
+            "vias de acesso, de ligação, radiais e diametrais.",
+            "vias expressas, arteriais, coletivas e locais.",
+            "vias locais, de trânsito rápido, expressas e preferenciais",
+            "vias locais, coletoras, arteriais e de trânsito rápido"
+        ],
+        correta: "vias locais, coletoras, arteriais e de trânsito rápido"
+    },
+    {
+        pergunta: "A Carteira Nacional de Habilitação permite a quem possuí-la o direito de dirigir:",
+        alternativas: [
+            "veículos automotores, apenas na localidade onde foi emitida.",
+            "qualquer tipo de veículo, apenas na localidade onde foi emitida.",
+            "qualquer tipo de veículo automotor",
+            "veículos automotores, apra os quais foi habilitado, em todo território nacional"
+        ],
+        correta: "veículos automotores, apra os quais foi habilitado, em todo território nacional"
+    },
+    {
+        pergunta: `Em qual das situações abaixo, poderá ser agravada a pena, para os casos de homicidio culposo cometido pelo 
+        condutor na direção de veículo automotor:`,
+        alternativas: [
+            "utilizando veículo sem placa ou com placa adulterada",
+            "praticado na faixa de pedestres",
+            "com Permissão para Dirigir ou Carteira de Habilitação de categoria diferente da do veículo",
+            "todas as alternativas estão corretas"
+        ],
+        correta: ""
+    },
+    {
+        pergunta: "O condutor habilitado apenas na categoria 'B' poderá dirigir veículo:",
+        alternativas: [
+            "motorizado de 2 rodas",
+            `com peso menor que 3.500 kg e que não tenha mais de 8 lugares, sem contar o condutor. Além de motor-casa cujo 
+            peso não exceda a 6.000 kg ou cuja lotação não exceda a 8 lugares, sem contar o condutor`,
+            "de transporte de carga, cujo PBT exceda a 3.500 kg",
+            "de transporte coletivo de passageiros e que tenha mais de 8 lugares, sem contar o do condutor"
+        ],
+        correta: ""
+    },
+    {
+        pergunta: "O condutor está em uma via de mão dupla e pretende virar à direita. Para isso, ele deverá posicionar o veículo:",
+        alternativas: [
+            "o máximo possível do bordo direito da via",
+            "mais ao centro possível da via",
+            "o máximo possível do bordo esquerdo da via",
+            "não há uma posição definida"
+        ],
+        correta: ""
+    },
+    {
+        pergunta: "É importante conhecer as leis de trânsito para:",
+        alternativas: [
+            "conduzir de acordo com o que é determinado, sem cometer infrações.",
+            "mostrar para seus amigos que você sabe tudo e estudou muito.",
+            "poder fazer coisas erradas e ter argumentos para discutir com o agente",
+            "criticar os erros de outras pessoas com muita propriedade"
+        ]
+        ,
+        correta: "conduzir de acordo com o que é determinado, sem cometer infrações."
+    },
+    {
+        pergunta: "O condutor que estíver habilitado na categoria 'E' NÃO poderá dirigir:",
+        alternativas: [
+            "automóveis",
+            "veículo motorizado com peso bruto total até 3.500 kg",
+            "veículo motorizado com até 8 lugares, sem contar o do condutor",
+            "motocicletas"
+        ],
+        correta: ""
+    },
+    {
+        pergunta: `Em uma blitz, para comprovar que é habilitado o condutor deverá apresentar:
+        <br> I. CNH válida, impressa ou digital.
+        <br> II. PPD válida, impressa ou digital.
+        <br> III. Registro do Veículo e CPF.
+        <br>As alternativas corretas são:`,
+        alternativas: ["I, II e III", "II e III", "I e II", "I e III"],
+        correta: ""
+    },
+    {
+        pergunta: "A educação para o trânsito, que está prevista no CTB, é um direito de todos e tem por finalidade:",
+        alternativas: [
+            "promover a reciclagem dos condutores infratores",
+            "conscientizar consutores e pedestres para que haja respeito e cidadania no trânsito.",
+            "possibilitar o treinamento dos candidatos à obtenção de CNH.",
+            "reciclar os especialistas na área do trânsito"
+        ],
+        correta: ""
+    },
+    {
+        pergunta: "Nas cidades, é proibido buzinar:",
+        alternativas: [
+            "entre 10 horas da noite e 6 horas da manhã", "entre 8 horas da noite e 7 horas da manhã",
+            "entre 6 horas da tarde e 6 horas da manhã", "entre 6 horas da tarde e 10 horas da noite"],
+        correta: ""
+    },
+    {
+        pergunta: "Segundo o CTB, a identificação externa de um veículo é feita por meio:",
+        alternativas: [
+            "do número do motor, gravado obrigatoriamente nos vidros",
+            "da placa traseira apenas, com caracteres iguais ao do registro",
+            "da placa dianteira apenas, com caracteres iguais ao do registro",
+            "das placas dianteira e traseira (ou só a traseira no caso das motos), com caracteres iguais ao do registro do veículo"
+        ],
+        correta: ""
+    },
+    {
         pergunta: "",
         alternativas: ["", "", "", ""],
         correta: ""
     },
-   
+    {
+        pergunta: "",
+        alternativas: ["", "", "", ""],
+        correta: ""
+    },
+    {
+        pergunta: "",
+        alternativas: ["", "", "", ""],
+        correta: ""
+    },
+    {
+        pergunta: "",
+        alternativas: ["", "", "", ""],
+        correta: ""
+    },
 ];
 
  
